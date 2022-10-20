@@ -1,0 +1,45 @@
+<style>
+.main_name {
+    padding: 0.01em 16px;
+}
+
+.container {
+    display: grid;
+}
+
+.title {
+    padding: 0.01em 16px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-style: italic;
+    font-size: medium;
+}
+
+.content {
+    padding: 0.01em 16px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+td.tabular {
+    padding: 0.01em 100px;
+    text-align: center;
+}
+
+.exp-detail {
+    padding: 0.01em 16px;
+    display: grid;
+}
+
+.exp-detail > .exp-title {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-style: italic;
+    font-size: medium;
+}
+
+.exp-detail > .exp-timeline {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+</style>
